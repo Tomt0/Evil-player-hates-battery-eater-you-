@@ -1,11 +1,8 @@
-Simple Pygame App
+what ya need:
+python 3
+`requirements.txt` packages
 
-Requirements
-
-- Python 3.8+
-- See `requirements.txt` for Python packages
-
-Install
+how install
 
 ```bash
 python -m venv .venv
@@ -19,7 +16,4 @@ Run
 python Main.py
 ```
 
-Controls
 
-- Arrow keys or WASD: move the square
-- Esc or window close: quit
