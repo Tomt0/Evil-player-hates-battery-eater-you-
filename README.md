@@ -4,6 +4,12 @@ python 3
 
 how install
 
+1: download the "Main.py"
+2: download python: https://www.python.org/ (you might not need it tbh)
+3: run it.
+if it dont work you can follow the ai slop below
+↓↓↓↓↓↓↓↓↓
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
