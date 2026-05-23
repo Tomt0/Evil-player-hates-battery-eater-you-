@@ -4,7 +4,7 @@ python 3
 
 how install
 
-1: download the "Main.py"
+1: download the "Main.py" and the png (must be in the same folder)
 
 2: download python: https://www.python.org/ (you might not need it tbh)
 
