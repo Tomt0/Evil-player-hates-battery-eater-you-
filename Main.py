@@ -11,11 +11,13 @@ def main() -> None:
 	clock = pygame.time.Clock()
 
 	# batteries
-	batteries_size = 30
+	batteries_size = 60
 	batteries_rect_color = (251, 239, 43)
 	batteries_rect = pygame.Rect((WIDTH - batteries_size) // 2, (HEIGHT - batteries_size) // 2, batteries_size, batteries_size)
 	batteries_start = (random.randint(0, WIDTH - batteries_size), random.randint(0, HEIGHT - batteries_size))
 	batteries_rect = pygame.Rect(batteries_start[0], batteries_start[1], batteries_size, batteries_size)
+	battery_image = pygame.image.load("battery.png").convert_alpha()
+	battery_image = pygame.transform.smoothscale(battery_image, (batteries_size, batteries_size))
 
 	# Evil Player
 	Evil_player_size = 45
@@ -108,7 +110,7 @@ def main() -> None:
 		screen.fill((30, 30, 40))
 		pygame.draw.rect(screen, player_color, player_rect)
 		pygame.draw.rect(screen, Evil_player_color, Evil_player_rect)
-		pygame.draw.rect(screen, batteries_rect_color, batteries_rect)
+		screen.blit(battery_image, batteries_rect)
 
 		# FPS display in caption
 		fps = int(clock.get_fps()) if clock.get_fps() > 0 else 60
