@@ -1,12 +1,19 @@
-Simple Pygame App
+what ya need:
+python 3
+`requirements.txt` packages
 
-Requirements
+how install
 
-- Python 3.8+
-- See `requirements.txt` for Python packages
+1: download the "Main.py"
 
-Install
+2: download python: https://www.python.org/ (you might not need it tbh)
 
+3: run it
+
+if it dont work you can follow the ai slop below
+↓↓↓↓↓↓↓↓↓
+
+(run this in terminal btw)
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -19,7 +26,4 @@ Run
 python Main.py
 ```
 
-Controls
 
-- Arrow keys or WASD: move the square
-- Esc or window close: quit
