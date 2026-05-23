@@ -13,6 +13,7 @@ how install
 if it dont work you can follow the ai slop below
 ↓↓↓↓↓↓↓↓↓
 
+(run this in terminal btw)
 ```bash
 python -m venv .venv
 source .venv/bin/activate
